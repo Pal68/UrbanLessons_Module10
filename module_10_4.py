@@ -9,7 +9,7 @@ class Guest(threading.Thread):
         self.name = name
 
     def run(self):
-        time.sleep(random.randint(1, 3))
+        time.sleep(random.randint(3, 10))
 
 
 
